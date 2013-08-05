@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>  
+<!--item -->  
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal" 
+    android:layout_weight="1"
+    android:background="#FF3366BB"
+    >
+  <!-- id-->  
+  <TextView
+      android:id="@+id/item_id"
+      android:layout_width="fill_parent"
+      android:layout_weight="1"
+      android:layout_height="wrap_content"
+      android:layout_marginTop="5dp"
+      android:layout_gravity="center"
+      android:gravity="center" 
+      android:textSize="20sp"
+      android:background="#FF3366CC"
+      />
+      
+  <!-- month_day -->  
+  <TextView
+      android:id="@+id/item_month_day"
+      android:layout_width="fill_parent"
+      android:layout_weight="1"
+      android:layout_height="wrap_content"
+      android:layout_marginTop="5dp"
+      android:layout_gravity="center"
+      android:gravity="center"
+      android:textSize="20sp"
+      android:background="#FF3366CC"
+       />
+
+  <!-- hour_minute -->  
+  <TextView 
+   android:id="@+id/item_hour_minute"  
+   android:layout_width="fill_parent"
+   android:layout_weight="1"
+   android:layout_height="wrap_content"
+   android:layout_marginTop="5dp"
+   android:layout_gravity="center"  
+   android:gravity="center"  
+   android:textSize="20sp"
+   android:background="#FF3366CC"
+  /> 
+
+  <!-- On-of -->
+   <TextView  
+   android:layout_height="wrap_content"
+   android:layout_marginTop="5dp"
+   android:layout_width="fill_parent"
+   android:layout_weight="1"
+   android:id="@+id/item_onoff"
+   android:layout_gravity="center"  
+   android:gravity="center"
+   android:textSize="20sp" 
+   android:background="#FF3366CC" 
+  /> 
+</LinearLayout>  
